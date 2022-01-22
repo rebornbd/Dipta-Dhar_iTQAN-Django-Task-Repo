@@ -4,6 +4,13 @@ from rest_framework import serializers
 from rest_framework.validators import UniqueValidator
 
 
+class UserSerializer(serializers.ModelSerializer):
+  class Meta:
+    model = User
+    exclude = ['password']
+    depth = 0
+
+
 class RegisterUserSerializer(serializers.ModelSerializer):
   email = serializers.EmailField(
     required=True,
