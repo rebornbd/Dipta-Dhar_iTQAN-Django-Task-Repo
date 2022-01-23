@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 800px;
+  margin-bottom: 30px;
+}
+
+.newPhone {
+  flex: 2;
+  background-color: #7dbe8c;
+  color: #030303;
+  cursor: pointer;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.itemSearch {
+  flex: 3;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #b2b2b2;
+  border-radius: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.phoneItem {
+  display: flex;
+  background-color: #b2b2b2;
+  color: #030303;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 2px;
+}
+.phoneItemHeader {
+  background-color: #000000;
+  color: #ffffff;
+}
+.phoneItemHeader > .phoneItemActions {
+  padding-left: 28px;
+}
+
+.phoneItemActions {
+  display: flex;
+  min-width: 200px;
+}
+.phoneItemActions > div {
+  padding: 0px 20px;
+}
+
+.phoneSubItem {
+  min-width: 100px;
+}
+.phoneItemModel {
+  min-width: 300px;
+}
+.phoneItem > .phoneItemJancode {
+  min-width: 150px;
+}
+
+/* icon */
+.icon {
+  font-size: 20px;
+}
+
+.itemEdit, .itemDelete {
+  cursor: pointer;
+}
+
+.plusIcon {
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}

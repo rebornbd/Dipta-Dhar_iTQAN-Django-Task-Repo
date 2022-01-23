@@ -1,0 +1,16 @@
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: calc(100% - 0px);
+  height: 400px;
+}
+
+/* product content */
+.productContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px 50px;
+}

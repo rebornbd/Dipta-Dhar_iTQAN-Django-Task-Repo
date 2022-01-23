@@ -1,0 +1,106 @@
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.formItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formItems > div, .formItems > input {
+  min-width: 500px;
+  margin-bottom: 5px;
+}
+
+.formItems > div {
+  margin-left: -20px;
+}
+
+.formItems > input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  border: 1px solid #333;
+}
+
+.loginBtn {
+  min-width: 530px;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+  background-color: #8f8f8f;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.loginBtnActive {
+  background-color: #acf6a1;
+  color: #000000;
+  cursor: pointer;
+}
+
+.signup {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.signupBtn {
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.errorList {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+
+  padding: 20px;
+  background-color: rgb(253, 125, 125);
+  color: #ffffff;
+  min-width: 500px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+/* help guide */
+.helpGuide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.helpGuideRow {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  background: rgb(230, 253, 206);
+}
+.helpGuideTitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+.helpGuideRow > div:nth-child(2), .helpGuideRow > div:last-child {
+  font-size: 15px;
+  font-weight: 300;
+  word-spacing: 10px;
+}
+

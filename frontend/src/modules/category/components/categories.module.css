@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+.newBrand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #7dbe8c;
+  color: #030303;
+  min-width: 430px;
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.brandItem {
+  display: flex;
+  background-color: #b2b2b2;
+  color: #030303;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 2px;
+}
+.brandItemActions {
+  display: flex;
+
+}
+.brandItemActions > div {
+  padding: 0px 20px;
+}
+
+.brandItemName {
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+}
+
+/* icon */
+.icon {
+  font-size: 20px;
+}
+
+.itemEdit, .itemDelete {
+  cursor: pointer;
+}
+
+.plusIcon {
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}

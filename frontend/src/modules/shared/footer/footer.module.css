@@ -1,0 +1,23 @@
+.container {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: #191919;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.itemLink {
+  padding-left: 10px;
+  text-decoration: none;
+  color: seagreen;
+  font-size: 20px;
+  font-weight: 500;
+}

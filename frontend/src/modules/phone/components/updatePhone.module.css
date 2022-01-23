@@ -1,0 +1,68 @@
+.container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding: 5px 10px;
+  background-color: rgb(253, 125, 125);
+  color: #ffffff;
+  min-width: 500px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.item > label {
+  min-width: 200px;
+}
+
+.item > input {
+  min-width: 300px;
+  padding: 5px;
+}
+
+.item > select {
+  min-width: 312px;
+  padding: 6px;
+}
+
+.createBtn {
+  min-width: 315px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #8f8f8f;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  
+  border: none;
+  border-radius: 2px;
+  cursor: not-allowed;
+}
+.createBtnActive {
+  background-color: #acf6a1;
+  color: #000000;
+  cursor: pointer;
+}

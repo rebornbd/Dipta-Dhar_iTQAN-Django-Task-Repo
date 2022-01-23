@@ -1,0 +1,21 @@
+/* carousel */
+.carouselItemContainer {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+
+  background-color: #364d79;
+  color: #ffffff;
+}
+
+.carouselItemImg {
+  height: 300px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.carouselItemTitle {
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -1,0 +1,20 @@
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: calc(100% - 0px);
+  height: 400px;
+}
+
+.mainCantainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px 50px;
+}
+
+.mainContentTitle {
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
