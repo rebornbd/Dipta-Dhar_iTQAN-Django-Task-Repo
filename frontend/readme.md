@@ -1,18 +1,27 @@
-### frontend
-
 #### frontend react
 ```
-1) build crud funtionality
-2) row custom design
+1) token based authentication
+2) (general user dash-board)
+   * login/signup
+   * view product
+   * view category
+   * product details view
+2) (admin user dash-board)
+   * all general user funtionality
+   * product list view (sorting by view-count)
+   * crud category
 ```
 
-#### preview
-##### brands list
-![view1](https://i.ibb.co/JHYqpXc/Screenshot-from-2021-12-27-23-45-09.png)
+### preview
 
-##### phones list
-![view1](https://i.ibb.co/0yGJpJZ/Screenshot-from-2021-12-27-23-45-44.png)
+##### general dashboard
+![view1](https://i.ibb.co/V9MNcKW/Screenshot-from-2022-01-23-14-44-33.png)
 
-##### phone update view
-![view1](https://i.ibb.co/Gcp7Ch8/Screenshot-from-2021-12-27-23-45-59.png)
+##### admin dashboard
+![view1](https://i.ibb.co/ggnHFJn/Screenshot-from-2022-01-23-14-40-55.png)
 
+##### login
+![view1](https://i.ibb.co/nwbNNym/Screenshot-from-2022-01-23-14-47-47.png)
+
+##### signup
+![view1](https://i.ibb.co/F6KFVfF/Screenshot-from-2022-01-23-14-48-18.png)
